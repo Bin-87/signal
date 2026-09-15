@@ -1,0 +1,12 @@
+[server]
+# Keep Streamlit's cross-site request and origin protections explicitly enabled.
+enableCORS = true
+enableXsrfProtection = true
+
+[client]
+# Never expose Python exception details to public visitors.
+showErrorDetails = "none"
+
+[browser]
+# Do not send anonymous usage telemetry from this app.
+gatherUsageStats = false

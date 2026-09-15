@@ -1,0 +1,12 @@
+.streamlit/secrets.toml
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
